@@ -1,0 +1,22 @@
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30px;
+}
+.tabHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.dashboardTitle{
+    align-self: flex-start;
+    padding-left: 30px;
+}
+.addTopic {
+  text-transform: none !important;
+  background-color: #ff5733 !important;
+}

@@ -1,0 +1,17 @@
+.cardActions {
+  display: flex;
+}
+.writeUp {
+  text-transform: none !important;
+  background-color: #ff5733 !important;
+  align-self: flex-end;
+}
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nameContainer{
+    font-size: large;
+    font-weight: 600;
+}

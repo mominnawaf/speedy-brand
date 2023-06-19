@@ -1,0 +1,30 @@
+.root {
+  margin: 16px;
+  border: 1px solid lightgray;
+  padding: 16px;
+}
+.toolbar {
+  margin-bottom: 16px;
+}
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.editor {
+  height: 500px;
+  width: 70%;
+}
+.writeUp {
+  text-transform: none !important;
+  background-color: #ff5733 !important;
+  align-self: flex-end;
+}
+.buttonContainer {
+  display: flex;
+  * {
+    margin: 1rem;
+  }
+}
